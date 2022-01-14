@@ -1,0 +1,39 @@
+.container{
+  width: 600px;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+*{
+  box-sizing: border-box;
+}
+.audio{
+  /* display: inline-block; */
+  margin-right: 45px;
+  margin-left: -1px;
+}
+.yagonam{
+  font-family: 'Pacifico', cursive;
+  font-size: 42px;
+  text-align: end;
+  color: #222;
+  line-height: 63px;
+}
+.red{
+  color: rgb(189, 67, 23);
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  background-image: url("/img/mountains-7ddde89.webp");
+  /* object-fit: cover;
+  object-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  background-position: center;
+  background-attachment: fixed;
+}

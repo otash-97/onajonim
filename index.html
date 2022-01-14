@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/lib/w3.css">
+  <style>
+    .mySlides {display:none;}
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="audio2">
+    <audio controls autoplay>
+      <source src="mp3/Botir_Qodirov_Ishq_Ботир_Кодиров_Ишк_Ta_tilMP3_70K.mp3" type="audio/mpeg">
+      <source src="mp3/allohdanqorq.mp3" type="audio/mpeg">
+      <!-- Your browser does not support the audio element. -->
+    </audio>
+  </div>
+
+  <h2 class="yagonam red"> O'zingizni extiyoy<br>qiling..!</h2>
+  <h2 class="yagonam">Onajonim<BR>Sizni Yaxshi ko'raman!</h2>
+    <div class="container">
+      <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="img/bir-oyligi.jpg" style="width:100%">
+        <img class="mySlides" src="img/onajonim-va-mitticha.jpg" style="width:100%">
+        <img class="mySlides" src="img/qizil-atirgul.jpg" style="width:100%">
+        <img class="mySlides" src="img/mehribonim.jpg" style="width:100%">
+        <img class="mySlides" src="img/mittivaonam.jpg" style="width:100%">
+        <img class="mySlides" src="img/muhammadjon.jpg" style="width:100%">
+        <img class="mySlides" src="img/olovrang-atirgul.jpg" style="width:100%">
+        <img class="mySlides" src="img/oilaviy.jpg" style="width:100%">
+        <img class="mySlides" src="img/onajonim.jpg" style="width:100%">
+        <img class="mySlides" src="img/qizil-atirgullar.jpg" style="width:100%">
+        <img class="mySlides" src="img/onamvamen.jpg" style="width:100%">
+        <img class="mySlides" src="img/dilnoz-toyi.jpg" style="width:100%">
+        <img class="mySlides" src="img/mittigina.jpg" style="width:100%">
+        <img class="mySlides" src="img/atirgul-qizil.jpg" style="width:100%">
+        <img class="mySlides" src="img/onajonimbilanmen.jpg" style="width:100%">
+        <img class="mySlides" src="img/qizil-atirgullar.jpg" style="width:100%">
+      </div>
+    </div>
+    <!-- https://uzhits.net/mp3/49685-oybek-ahmedov-azizam-cover.html -->
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+  </body>
+  </html>
